@@ -41,4 +41,9 @@ export class MemberService {
       details: member.details,
       picture: member.picture});
   }
+
+  deleteMember(member) {
+    var memberInFirebase = this.getMemberObjById(member.$key);
+    memberInFirebase.remove();
+  }
 }

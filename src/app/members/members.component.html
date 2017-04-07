@@ -10,5 +10,6 @@
   <p>
     <span class='profileLink' (click)='goToProfilePage(member)'>{{member.name}}</span>, position: {{member.role}}, Join date: {{member.memberSince }}
     <a *ngIf="currentRoute == '/members/admin'" class='profileLink' (click)='goToProfilePage(member)'>edit</a>
+    <a *ngIf="currentRoute == '/members/admin'" class='profileLink' (click)='deleteMember(member)'>delete</a>
   </p>
 </div>

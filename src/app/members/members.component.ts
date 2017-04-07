@@ -36,4 +36,10 @@ export class MembersComponent implements OnInit {
     }
   }
 
+  deleteMember(member) {
+    if(confirm("Are you sure you want to delete this member?")) {
+      this.memberService.deleteMember(member);
+    }
+  }
+
 }
