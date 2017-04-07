@@ -5,3 +5,7 @@
 <p>e-mail: {{(member | async)?.email}}, phone: {{(member | async)?.phone}}</p>
 <p>Details:</p>
 <p>{{(member | async)?.details}}</p>
+
+<div *ngIf='currentRoute == dynamicCurrent'>
+ <app-edit-member></app-edit-member>
+</div>

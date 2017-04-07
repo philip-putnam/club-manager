@@ -21,7 +21,11 @@ export class MembersComponent implements OnInit {
   }
 
   goToProfilePage(member) {
-    this.router.navigate(['member-profile', member.$key])
+    if (this.currentRoute === '/members/admin') {
+      this.router.navigate(['member-profile/admin/', member.$key]);
+    } else {
+      this.router.navigate(['member-profile', member.$key]);
+    }
   }
 
   toggleNewMemberForm() {
