@@ -1,3 +1,29 @@
-<p>
-  edit-member works!
-</p>
+<div class='form-group'>
+    <label>Name: </label>
+    <input [(ngModel)]='member.name'>
+    <label>Role: </label>
+    <input [(ngModel)]='member.role'>
+  </div>
+
+  <div class='form-group'>
+    <label>E-mail: </label>
+    <input [(ngModel)]='member.email'>
+    <label>Phone: </label>
+    <input [(ngModel)]='member.phone'>
+  </div>
+
+  <div class='form-group'>
+    <label>Member since: </label>
+    <input type='date' [(ngModel)]='member.memberSince'>
+  </div>
+
+  <div class='form-group'>
+    <label>Details: </label><br>
+    <textarea [(ngModel)]='member.details'></textarea>
+  </div>
+
+  <div class='form-group'>
+    <label>Picture: </label>
+    <input [(ngModel)]='member.picture'>
+  </div>
+<button class="btn btn-small btn-success" (click)="sendEditForm(member)">Submit Changes</button>

@@ -1,11 +1,12 @@
-<img src="{{(member | async)?.picture}}" alt="profile picture">
-<h3>Member Name: {{(member | async)?.name}}</h3>
-<h4>Position: {{(member | async)?.role}}</h4>
-<h5>Member since: {{(member | async)?.memberSince}}</h5>
-<p>e-mail: {{(member | async)?.email}}, phone: {{(member | async)?.phone}}</p>
-<p>Details:</p>
-<p>{{(member | async)?.details}}</p>
-
-<div *ngIf='currentRoute == dynamicCurrent'>
- <app-edit-member></app-edit-member>
+<div *ngFor='let member of members | async'>
+  <img src="{{member.picture}}" alt="profile picture">
+  <h3>Member Name: {{member.name}}</h3>
+  <h4>Position: {{member.role}}</h4>
+  <h5>Member since: {{member.memberSince}}</h5>
+  <p>e-mail: {{member.email}}, phone: {{member.phone}}</p>
+  <p>Details:</p>
+  <p>{{member.details}}</p>
+  <div *ngIf='currentRoute == dynamicCurrent'>
+    <app-edit-member [member]="member"></app-edit-member>
+  </div>
 </div>

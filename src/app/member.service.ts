@@ -14,11 +14,31 @@ export class MemberService {
   }
 
   getMemberById(memberId: string) {
-    return this.angularFire.database.object('members/' + memberId);
+    return this.angularFire.database.list('/members/', {
+      query: {
+        orderByKey: true,
+        equalTo: memberId
+      }
+    });
+  }
+
+  getMemberObjById(key: string) {
+    return this.angularFire.database.object('/members/' + key);
   }
 
   saveMember(newMember) {
     this.members.push(newMember);
   }
 
+  updateMember(member) {
+    var memberInFirebase = this.getMemberObjById(member.$key);
+    memberInFirebase.update({
+      name: member.name,
+      role: member.role,
+      email: member.email,
+      phone: member.phone,
+      memberSince: member.memberSince,
+      details: member.details,
+      picture: member.picture});
+  }
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
@@ -14,15 +14,16 @@ export class MemberProfileComponent implements OnInit {
   currentRoute: string = this.router.url;
   memberId: string;
   dynamicCurrent: string = '/member-profile/admin' + this.memberId;
-  member;
+  members: FirebaseListObservable<any[]>;
 
   constructor(private route: ActivatedRoute, private router: Router, private location: Location, private memberService: MemberService) { }
 
   ngOnInit() {
-    this.route.params.forEach((urlParameters) => {
-      this.memberId = urlParameters['id'];
+    this.route.params.forEach((urlParameter) => {
+      this.memberId = urlParameter['id'];
       this.dynamicCurrent = '/member-profile/admin/' + this.memberId;
     });
-    this.member = this.memberService.getMemberById(this.memberId);
+    this.members = this.memberService.getMemberById(this.memberId);
+
   }
 }

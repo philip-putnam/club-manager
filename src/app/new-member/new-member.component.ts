@@ -25,7 +25,7 @@ export class NewMemberComponent implements OnInit {
         phone: phone,
         memberSince: memberSince,
         details: details,
-        picture:picture
+        picture: picture
       };
       this.memberService.saveMember(newMember);
     }
