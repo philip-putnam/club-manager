@@ -11,6 +11,8 @@ import { Router } from '@angular/router';
 })
 export class MembersComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
+  newMemberForm: boolean = false;
 
   constructor(private memberService: MemberService, private router: Router) {}
 
@@ -20,6 +22,14 @@ export class MembersComponent implements OnInit {
 
   goToProfilePage(member) {
     this.router.navigate(['member-profile', member.$key])
+  }
+
+  toggleNewMemberForm() {
+    if (this.newMemberForm) {
+      this.newMemberForm = false;
+    } else {
+      this.newMemberForm = true;
+    }
   }
 
 }

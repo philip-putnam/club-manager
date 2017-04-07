@@ -1,0 +1,29 @@
+<h4>Add New Member Form:</h4>
+<div>
+  <div class='form-group'>
+    <label>New Member Name: </label>
+    <input #newName required>
+    <label>Role: </label>
+    <input #newRole required>
+  </div>
+  <div class='form-group'>
+    <label>e-mail: </label>
+    <input #newEmail>
+    <label>Phone: </label>
+    <input #newPhone>
+  </div>
+  <div class='form-group'>
+    <label>Member Since: </label>
+    <input type='date' #newMemberSince>
+  </div>
+  <div class='form-group'>
+    <label>Picture URL: </label>
+    <input #newPicture>
+  </div>
+  <div class='form-group'>
+    <label>Details:</label><br>
+    <textarea #newDetails></textarea>
+  </div>
+
+  <button (click)="saveNewMember(newName.value, newRole.value, newEmail.value, newPhone.value, newMemberSince.value, newDetails.value, newPicture.value); newName.value = ''; newRole.value = ''; newEmail.value = ''; newPhone.value = ''; newMemberSince.value = ''; newDetails.value = ''; newPicture.value = ''">Save New Member</button>
+</div>

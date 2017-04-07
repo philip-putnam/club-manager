@@ -1,3 +1,11 @@
+<div *ngIf="currentRoute == '/members/admin'">
+  <button class='btn btn-info' (click)='toggleNewMemberForm()'>
+    <span *ngIf='newMemberForm == false'>Add New member</span>
+    <span *ngIf='newMemberForm'>Hide Form</span>
+  </button>
+  <app-new-member *ngIf='newMemberForm'></app-new-member>
+</div><br><br>
+
 <div *ngFor='let member of members | async'>
-  <p><span class='profileLink' (click)='goToProfilePage(member)'>{{member.name}}</span>, position: {{member.role}}, Join date: {{member.memberSince }}
+  <p><span class='profileLink' (click)='goToProfilePage(member)'>{{member.name}}</span>, position: {{member.role}}, Join date: {{member.memberSince }}</p>
 </div>

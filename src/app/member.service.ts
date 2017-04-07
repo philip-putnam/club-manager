@@ -17,4 +17,8 @@ export class MemberService {
     return this.angularFire.database.object('members/' + memberId);
   }
 
+  saveMember(newMember) {
+    this.members.push(newMember);
+  }
+
 }
