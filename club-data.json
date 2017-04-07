@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+    "name": "Alex",
+    "role": "Treasurer",
+    "email": "alex@clubwin.com",
+    "phone": "503-888-9312",
+    "memberSince": "2015-03-14",
+    "details": "Hammock gochujang stumptown biodiesel gentrify truffaut. Humblebrag hammock af XOXO, schlitz vice crucifix selvage lyft. Hammock viral tofu green juice, organic forage meggings. Lo-fi snackwave tacos, sustainable meh chartreuse slow-carb brunch salvia. Squid franzen synth, hell of kogi scenester shabby chic VHS. Bushwick biodiesel pabst, vexillologist semiotics kickstarter jianbing church-key stumptown unicorn. Gastropub tattooed af, listicle plaid scenester semiotics copper mug.",
+    "picture": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjP3uDK3pLTAhVQ9GMKHcqLC1YQjRwIBw&url=http%3A%2F%2Fwww.buzzfeed.com%2Fkaelintully%2Fjurassic-park-is-a-gr8-film-raptor-shriek-all-the-damn-time&psig=AFQjCNE_kOewIHA0MbsY0ay2gGy39bU6zw&ust=1491668028724435"
+  },
+    {
+    "name": "Bob Burgermen",
+    "role": "Member",
+    "email": "bob@clubwin.com",
+    "phone": "971-322-2134",
+    "memberSince": "2017-01-04",
+    "details": "Selfies sustainable +1 stumptown, try-hard food truck farm-to-table selvage truffaut tbh taxidermy. Sustainable vaporware next level taxidermy readymade. Cardigan vinyl tumblr health goth. Photo booth tumblr keytar, echo park tacos copper mug chia succulents try-hard poke 3 wolf moon neutra. Knausgaard hell of swag heirloom. Drinking vinegar cliche messenger bag trust fund art party photo booth poutine kale chips, yr activated charcoal squid. Helvetica small batch farm-to-table raw denim, stumptown fixie austin tousled knausgaard pour-over four dollar toast taxidermy try-hard.",
+    "picture": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjT-JvV3pLTAhWJKGMKHYSnDqIQjRwIBw&url=http%3A%2F%2Fwww.cutestpaw.com%2Farticles%2F50-cute-puppies-make-your-girlfriend-smile%2F&psig=AFQjCNE_kOewIHA0MbsY0ay2gGy39bU6zw&ust=1491668028724435"
+  },
+    {
+    "name": "Caitlyn Cats",
+    "role": "President",
+    "email": "caitlynPrez@clubwin.com",
+    "phone": "503-134-2342",
+    "memberSince": "2016-03-23",
+    "details": "Cronut everyday carry hell of, forage beard heirloom slow-carb readymade banjo raclette. Pickled whatever hot chicken master cleanse, put a bird on it man braid neutra migas 8-bit roof party. Fixie swag knausgaard, food truck unicorn readymade letterpress VHS flannel af cold-pressed. Keytar polaroid swag, ennui craft beer letterpress umami franzen 3 wolf moon succulents tacos venmo meditation. Actually kitsch hexagon quinoa. Keytar brooklyn cray tote bag, cornhole hoodie kogi fixie bitters. Austin four dollar toast portland, keytar scenester ramps bespoke narwhal etsy af paleo poutine skateboard.",
+    "picture": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj0nrja3pLTAhVTImMKHZztDHQQjRwIBw&url=http%3A%2F%2Fwww.cutestpaw.com%2Farticles%2F50-cute-puppies-make-your-girlfriend-smile%2F&psig=AFQjCNE_kOewIHA0MbsY0ay2gGy39bU6zw&ust=1491668028724435"
+  },
+    {
+    "name": "Diane Keaton",
+    "role": "Member",
+    "email": "",
+    "phone": "",
+    "memberSince": "",
+    "details": "Snackwave semiotics cronut, pabst chillwave man bun tumblr offal. Cliche stumptown post-ironic, wolf kale chips heirloom jianbing chambray kitsch. Mustache mixtape meh, gastropub waistcoat glossier tilde portland iceland 8-bit blog kogi. Organic aesthetic food truck fashion axe trust fund. Poutine deep v gastropub vexillologist bicycle rights, crucifix selfies trust fund. Trust fund synth mustache, art party next level intelligentsia meggings cred quinoa. Listicle bespoke DIY, ennui hoodie XOXO yr gastropub sustainable tumeric 3 wolf moon deep v asymmetrical la croix.",
+    "picture": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi7ieDd3pLTAhVB0GMKHVAOCsMQjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fexplore%2Fcute-puppies%2F&psig=AFQjCNE_kOewIHA0MbsY0ay2gGy39bU6zw&ust=1491668028724435"
+  },
+    {
+    "name": "Elexis Artemis",
+    "role": "Member",
+    "email": "elexis@clubwin.com",
+    "phone": "503-842-4832",
+    "memberSince": "2016-11-03",
+    "details": "Gluten-free cold-pressed schlitz food truck, lumbersexual brooklyn flannel yr scenester slow-carb keffiyeh tacos iPhone. Pug hammock edison bulb, poutine ethical bitters deep v direct trade. Mustache stumptown thundercats, vice waistcoat YOLO seitan copper mug yr XOXO deep v. Cronut man bun pabst pinterest, austin direct trade kale chips pickled readymade hammock +1 schlitz next level. Slow-carb helvetica freegan letterpress retro, bitters gastropub. IPhone church-key brunch chillwave wayfarers, deep v lyft typewriter tumblr air plant pok pok crucifix. Freegan hexagon before they sold out, chia paleo fashion axe mlkshk shoreditch tilde flexitarian glossier letterpress live-edge pitchfork echo park.",
+    "picture": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwip9MDh3pLTAhUU4GMKHR04AjcQjRwIBw&url=http%3A%2F%2Fwww.cutestpaw.com%2Farticles%2F50-cute-puppies-make-your-girlfriend-smile%2F&psig=AFQjCNE_kOewIHA0MbsY0ay2gGy39bU6zw&ust=1491668028724435"
+  },
+    {
+    "name": "Fin Fommer",
+    "role": "Vice President",
+    "email": "finVice@clubwin.com",
+    "phone": "1-800-432-3213",
+    "memberSince": "2015-09-09",
+    "details": "Actually vinyl disrupt, polaroid gochujang man braid whatever cronut humblebrag kale chips bitters bicycle rights locavore. Hoodie vaporware man braid, retro hella fashion axe marfa stumptown tumblr tacos portland brooklyn whatever leggings neutra. Literally affogato intelligentsia church-key. Master cleanse chambray unicorn locavore, kombucha yuccie retro keytar vexillologist everyday carry photo booth whatever franzen wayfarers. Listicle knausgaard normcore semiotics, pug try-hard chartreuse ennui twee 3 wolf moon ugh vexillologist brooklyn fashion axe irony. Meditation kombucha biodiesel XOXO. Hot chicken viral swag normcore vegan cronut.",
+    "picture": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj5lOvl3pLTAhUhHGMKHX_bDYkQjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fexplore%2Fsuper-cute-puppies%2F&psig=AFQjCNE_kOewIHA0MbsY0ay2gGy39bU6zw&ust=1491668028724435"
+  },
+    {
+    "name": "Genavieve Georgia",
+    "role": "Tactician",
+    "email": "genavieve@clubwin.com",
+    "phone": "503-893-4333",
+    "memberSince": "2016-06-18",
+    "details": "Prism plaid gastropub single-origin coffee cardigan. Snackwave four dollar toast farm-to-table, authentic tumeric keffiyeh bicycle rights man bun poke gochujang listicle cold-pressed pitchfork sustainable prism. Chillwave keffiyeh twee, 3 wolf moon letterpress actually man bun. Locavore 90's meggings brunch trust fund gastropub. Whatever brooklyn marfa seitan iceland. Ramps etsy mixtape hell of live-edge, slow-carb venmo hexagon fanny pack cliche helvetica fingerstache microdosing hammock. Etsy gastropub pour-over hell of drinking vinegar microdosing la croix.",
+    "picture": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjMycrq3pLTAhUM5WMKHUN0D80QjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fexplore%2Fpuppies%2F&psig=AFQjCNE_kOewIHA0MbsY0ay2gGy39bU6zw&ust=1491668028724435"
+  },
+    {
+    "name": "Hodor",
+    "role": "Hodor",
+    "email": "hodor@hodor.com",
+    "phone": "hodor",
+    "memberSince": "hodor",
+    "details": "hodor",
+    "picture": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjlsa_u3pLTAhVK1mMKHVonBzIQjRwIBw&url=http%3A%2F%2Fwww.prima.co.uk%2Ffamily%2Fpets%2Fnews%2Fa35151%2Fcute-puppies-national-puppy-day%2F&psig=AFQjCNE_kOewIHA0MbsY0ay2gGy39bU6zw&ust=1491668028724435"
+  }
+]
+}
