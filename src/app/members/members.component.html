@@ -1,3 +1,3 @@
 <div *ngFor='let member of members | async'>
-  <p>{{member.name}}, postition: {{member.role}}, Join date: {{member.memberSince }}
+  <p><span class='profileLink' (click)='goToProfilePage(member)'>{{member.name}}</span>, position: {{member.role}}, Join date: {{member.memberSince }}
 </div>

@@ -1,0 +1,8 @@
+.profileLink:hover {
+  cursor: pointer;
+}
+
+.profileLink {
+  color: blue;
+  text-decoration: underline;
+}
