@@ -1,3 +1,7 @@
-<p>
-  member-profile works!
-</p>
+<img src="{{(member | async)?.picture}}" alt="profile picture">
+<h3>Member Name: {{(member | async)?.name}}</h3>
+<h4>Position: {{(member | async)?.role}}</h4>
+<h5>Member since: {{(member | async)?.memberSince}}</h5>
+<p>e-mail: {{(member | async)?.email}}, phone: {{(member | async)?.phone}}</p>
+<p>Details:</p>
+<p>{{(member | async)?.details}}</p>
