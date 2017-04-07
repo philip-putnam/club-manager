@@ -13,6 +13,7 @@ import { MembersComponent } from './members/members.component';
 import { MemberProfileComponent } from './member-profile/member-profile.component';
 import { NewMemberComponent } from './new-member/new-member.component';
 import { EditMemberComponent } from './edit-member/edit-member.component';
+import { MemberSortPipe } from './member-sort.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -30,7 +31,8 @@ export const firebaseConfig = {
     MembersComponent,
     MemberProfileComponent,
     NewMemberComponent,
-    EditMemberComponent
+    EditMemberComponent,
+    MemberSortPipe
   ],
   imports: [
     BrowserModule,

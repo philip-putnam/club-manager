@@ -6,9 +6,13 @@
   <app-new-member *ngIf='newMemberForm'></app-new-member>
 </div><br><br>
 
-<div *ngFor='let member of members | async'>
+<label>Sort by role</label>
+<input [(ngModel)]='role'>
+<label>(type in a role that you would like to search for)</label>
+
+<div *ngFor='let member of members | async | memberSort:role'>
   <p>
-    <span class='profileLink' (click)='goToProfilePage(member)'>{{member.name}}</span>, position: {{member.role}}, Join date: {{member.memberSince }}
+    <span class='profileLink' (click)='goToProfilePage(member)'>{{member.name}}</span>, role: {{member.role}}, Join date: {{member.memberSince }}
     <a *ngIf="currentRoute == '/members/admin'" class='profileLink' (click)='goToProfilePage(member)'>edit</a>
     <a *ngIf="currentRoute == '/members/admin'" class='profileLink' (click)='deleteMember(member)'>delete</a>
   </p>
